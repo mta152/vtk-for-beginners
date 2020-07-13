@@ -1,6 +1,6 @@
 clc; clear all;
 % Load VTK Library
-NET.addAssembly([ADD YOUR INSTALLED ACTIVIZ .NET DIR HERE]);
+NET.addAssembly([ADD YOUR ACTIVIZ .NET DIR HERE]);
 import Kitware.VTK.*;
 
 % Load femur model

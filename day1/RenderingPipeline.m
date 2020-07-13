@@ -1,11 +1,11 @@
 clc; clear all;
 
 % Load VTK Library
-NET.addAssembly([ADD YOUR INSTALLED ACTIVIZ .NET DIR HERE]);
+NET.addAssembly([ADD YOUR ACTIVIZ .NET DIR HERE]);
 import Kitware.VTK.*;
 
 % Load model
-filename = 'C:\Users\mta\Desktop\vtk-for-beginners\cad-models\femur.stl';
+filename = 'D:\GitHub\vtk-for-beginners\cad-models\femur.stl';
  
 reader = vtkSTLReader.New();
 reader.SetFileName(filename);
