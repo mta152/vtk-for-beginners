@@ -19,6 +19,7 @@ Contents
 - Component placements (Beginner)
 - Contact map (Intermediate)
 - Animation (Intermediate)
+- Add Observer (Intermediate)
 - Selecting surfaces (Advanced)
 - GUI development (Advanced)
 ---
