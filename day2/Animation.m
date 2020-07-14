@@ -1,7 +1,7 @@
 clc; clear all;
 
 % Load VTK Library
-NET.addAssembly('C:\Program Files\ActiViz.NET 7.1.0 Supported Edition\bin\Kitware.VTK.dll');
+NET.addAssembly([ADD YOUR ACTIVIZ .NET DIR HERE]);
 import Kitware.VTK.*;
 
 % Specify model directory
